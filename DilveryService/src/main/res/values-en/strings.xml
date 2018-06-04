@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeliveryService</string>
+    <string name="Delivery">Delivery</string>
+    <string name="가격">Price:                           19000</string>
+    <string name="수량">"Count:         "</string>
+    <string name="소계">"Total:                 "</string>
+    <string name="주문완료">Order</string>
+    <string name="삭제">Delete</string>
+    <string name="확인">OK</string>
+    <string name="가격2">Price:                          10000</string>
+    <string name="가격3">Price:                            12000</string>
+    <string name="배달정보">Delivery Information</string>
+    <string name="연락처">Phone number</string>
+    <string name="배달주소">Address</string>
+    <string name="메뉴정보">Menu Information</string>
+    <string name="메뉴">Menu</string>
+    <string name="수량2">Count</string>
+    <string name="금액">Price</string>
+    <string name="주문성공">Your order is completed</string>
+    <string name="맛있는구절판">Mac and CheeseFries</string>
+    <string name="떡튀김">Grilled Mushroom</string>
+    <string name="낙지덮밥">Coca Cola</string>
+</resources>

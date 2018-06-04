@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    tools:context="com.example.choibowon.hackingprogram.HackPage">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageview1"
+        android:src="@drawable/givemoney"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageview2"
+        android:src="@drawable/givemoney2"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="줄까~?"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40dp"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/imageview1"
+        android:layout_alignEnd="@+id/imageview2"
+        android:layout_marginTop="26dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="말까~?"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40dp"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/imageview2"
+        android:layout_alignStart="@+id/imageview1" />
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+</RelativeLayout>
+

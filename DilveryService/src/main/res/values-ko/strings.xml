@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeliveryService</string>
+    <string name="Delivery">배달</string>
+    <string name="가격">가격:                              19000원</string>
+    <string name="수량">"수량 :         "</string>
+    <string name="소계">"소계:                   "</string>
+    <string name="주문완료">주문완료</string>
+    <string name="삭제">삭제</string>
+    <string name="확인">확인</string>
+    <string name="가격2">가격:                            10000원</string>
+    <string name="가격3">가격:                              12000원</string>
+    <string name="배달정보">배달정보</string>
+    <string name="연락처">연락처</string>
+    <string name="배달주소">배달주소</string>
+    <string name="메뉴정보">메뉴정보</string>
+    <string name="메뉴">메뉴</string>
+    <string name="수량2">수량</string>
+    <string name="금액">금액</string>
+    <string name="주문성공">주문이 완료되었습니다</string>
+    <string name="맛있는구절판">맛있는 구절판</string>
+    <string name="떡튀김">떡튀김</string>
+    <string name="낙지덮밥">슴슴한 낙지덮밥</string>
+</resources>

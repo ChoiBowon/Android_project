@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#9ED6C0"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/주문성공"
+                android:textColor="@android:color/background_light"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.51"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/배달정보"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="1.01">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="?attr/colorButtonNormal"
+                            android:gravity="center"
+                            android:text="@string/연락처"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/background_light"
+                            android:text="010-2458-2581"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="20dp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:background="?attr/colorButtonNormal"
+                            android:gravity="center"
+                            android:text="@string/배달주소"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="240dp"
+                            android:layout_height="40dp"
+                            android:background="@android:color/background_light"
+                            android:text="서울특별시 상도동7-113 대영빌라"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.52"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/메뉴정보"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.49">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="?attr/colorButtonNormal"
+                            android:gravity="center"
+                            android:text="@string/메뉴"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:background="?attr/colorButtonNormal"
+                            android:gravity="center"
+                            android:text="@string/수량2"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:background="?attr/colorButtonNormal"
+                            android:gravity="center"
+                            android:text="@string/금액"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/menu"
+                            android:layout_width="140dp"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/background_light"
+                            android:gravity="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/count"
+                            android:layout_width="5dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/background_light"
+                            android:gravity="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/background_light"
+                            android:gravity="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

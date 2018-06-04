@@ -1,0 +1,37 @@
+package com.example.choibowon.deliveryservice;
+
+import android.graphics.drawable.Drawable;
+
+/**
+ * Created by choibowon on 2017. 9. 29..
+ */
+
+public class MyItem {
+    private Drawable icon;
+    private String name;
+    private String contents;
+
+    public Drawable getIcon(){
+        return icon;
+    }
+
+    public void setIcon(Drawable icon){
+        this.icon = icon;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getContents(){
+        return contents;
+    }
+
+    public void setContents(String contents){
+        this.contents = contents;
+    }
+}
